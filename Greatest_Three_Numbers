@@ -1,0 +1,26 @@
+//2. Write a Program to Find the Greatest of the Three Numbers.
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"Enter The A value"<<endl;
+    cin>>a;
+    cout<<"Enter The B value"<<endl;
+    cin>>b;
+    cout<<"Enter The C value"<<endl;
+    cin>>c;
+    if(a>b && a>c)
+    {
+        cout<<"Greater the A value"<<endl;
+    }
+    else if(b>a && b>c)
+    {
+        cout<<"Greater the B value"<<endl;
+    }
+    else{
+        cout<<"Greater the C value"<<endl;
+    }
+
+}
