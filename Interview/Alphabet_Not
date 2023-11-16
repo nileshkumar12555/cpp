@@ -1,0 +1,17 @@
+//6. Write a Program to Print Check Whether a Character is an Alphabet or Not
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char ch;
+    cout<<"Enter The Charater value"<<endl;
+    cin>>ch;
+    if(isalpha(ch))
+    {
+        cout<<"it is alphabet"<<endl;
+    }
+    else{
+        cout<<"it is not alphabet"<<endl;
+    }
+}
