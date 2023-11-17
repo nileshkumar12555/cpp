@@ -1,0 +1,31 @@
+// Write a Program to Remove Spaces From a String
+
+
+#include <cstring> 
+#include <iostream> 
+using namespace std; 
+
+string remove_spaces(string str)
+{
+    string result=" ";
+    for(char c: str)
+    {
+        if(c !=' ')
+        {
+            result+=c;
+        }
+
+    }
+    return result;
+}
+
+int main()
+{
+   string str = "Gfg to the moon"; 
+  
+    cout << "Alphabets only: " << remove_spaces(str)
+         << endl; 
+  
+    return 0; 
+
+}
