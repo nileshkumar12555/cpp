@@ -1,0 +1,21 @@
+//  Write a Program to Find the Factorial of a Number Using Loops
+#include<iostream>
+using namespace std;
+
+int factorial(int n)
+{
+    int fact=1;
+    while(n>1)
+    {
+        fact *=n;
+        n--;
+
+    }
+    return fact;
+}
+int main()
+{
+    int n=6;
+    cout<<factorial(n);
+    
+}
