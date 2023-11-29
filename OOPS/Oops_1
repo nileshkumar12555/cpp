@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+class Lpu{
+    public:
+    int reg_no;
+    string Name;
+    string City;
+    Lpu();
+    void display();
+};
+Lpu::Lpu()
+{
+    cout<<"Enter The Reg No..:-";
+    cin>>reg_no;
+    cout<<"Enter The Name..:-";
+    cin>>Name;
+    cout<<"Enter The City..:-";
+    cin>>City;
+
+}
+void Lpu::display()
+{
+    cout<<endl<<reg_no<<"\t"<<Name<<"\t"<<City;
+}
+int main()
+{
+    Lpu s;
+    s.display();
+}
